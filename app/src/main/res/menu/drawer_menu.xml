@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_round_home"
+            android:title="@string/menu_home"/>
+        <item
+            android:id="@+id/nav_tips"
+            android:icon="@drawable/ic_round_info"
+            android:title="@string/menu_tips"/>
+        <item
+            android:id="@+id/nav_portal"
+            android:icon="@drawable/ic_round_account_balance_24"
+            android:title="@string/menu_portal"/>
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/ic_round_contacts_24"
+            android:title="@string/menu_attendance"/>
+        <item
+            android:id="@+id/nav_textbooks"
+            android:icon="@drawable/ic_round_menu_book_24"
+            android:title="@string/menu_textbooks"/>
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_round_design_services_24"
+            android:title="@string/menu_tools"/>
+
+
+    </group>
+
+    <item android:title="More items">
+        <menu>
+
+            <item
+                android:id="@+id/nav_events"
+                android:icon="@drawable/ic_round_event_24"
+                android:title="@string/menu_events"/>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_round_share_24"
+                android:title="@string/menu_share"/>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_round_settings_24"
+                android:title="@string/action_settings"/>
+        </menu>
+    </item>
+
+</menu>
